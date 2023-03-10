@@ -1,0 +1,48 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style 
+        include ../static/style.css
+
+block content 
+    section#IntroSection 
+         div.large Welcome ! to Sri Sanskriti Dance Academy
+         div.small Dance is workship 
+    div        
+        section#MissionSection 
+            h1 Our Mission
+            div.cards
+                h3 Perfection at classical dance 
+                div.cardBox 
+                    div.cardImg
+                        img(src="/static/img/1.png")
+
+                        div.cardContent
+                        p This is the best dance academy in the universe
+            div.cards 
+                h3 Dance the way you like 
+                div.cardBox 
+                    div.cardImg
+                        img(src="/static/img/2.png")
+
+                    div.cardContent
+                    p This is the best dance academy in the universe
+            div.cards 
+                h3 Expert teaching
+                div.cardBox 
+                    div.cardImg
+                        img(src="/static/img/3.png")
+
+                    div.cardContent
+                    p This is the best dance academy in the universe    
+
+        section#SponsorsSection 
+            h1 Our sponsors
+            div#sponsors 
+                img(src="/static/img/sponspor1.png", alt="SponsorsImg", class="spimg")
+                img(src="/static/img/sponspor2.png", alt="SponsorsImg", class="spimg")
+                img(src="/static/img/sponspor3.png", alt="SponsorsImg", class="spimg")
+                img(src="/static/img/sponspor4.png", alt="SponsorsImg", class="spimg")        

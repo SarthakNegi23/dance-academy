@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Sri Sranskriti Dance Academy - #{title}
+    block scripts
+    block style  
+  body
+    nav#navbar 
+        ul 
+            div#logo
+                img(src="/static/img/logo.png")
+                | SSDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Servces]
+            li #[a(href="/") Class Info]
+            li #[a(href="/Contact") Contact Us] 
+    block content
+
+    footer#footer 
+        | Copywright © SriSranskritiDanceAcademygmail.com |All rights reserved     
